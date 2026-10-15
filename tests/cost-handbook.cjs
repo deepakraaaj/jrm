@@ -9,7 +9,7 @@ const path = require('node:path');
     const page = await browser.newPage();
     const errors = [];
     page.on('pageerror', e => errors.push(e.message));
-    await page.goto(pathToFileURL(path.resolve('public/jrm-cost-handbook.html')).href);
+    await page.goto(pathToFileURL(path.resolve('public/jrm-architecture.html')).href);
     assert.equal(await page.locator('#rTrips').innerText(), '52,000');
     const total = await page.locator('#rTotal').innerText();
     await page.locator('#weatherCache').fill('0');
