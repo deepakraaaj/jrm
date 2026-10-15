@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'JRM | Architecture & API Cost Handbook',
+  description: 'Journey Risk Management architecture, provider options and fleet cost planning.',
   generator: 'v0.app',
   icons: {
     icon: [
